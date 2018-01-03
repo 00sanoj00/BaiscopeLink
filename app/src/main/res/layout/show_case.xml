@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:background="#000000"
+>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Welcome"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:weightSum="2"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+            <ImageView
+                    android:layout_width="@dimen/_99sdp"
+                    android:layout_height="@dimen/_99sdp"
+                    android:background="@drawable/fab_buttn"
+                    android:id="@+id/imageView" android:layout_gravity="center_horizontal"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="About"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="Please click on this button to use more options"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="You can swipe from left to right to swicth users"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

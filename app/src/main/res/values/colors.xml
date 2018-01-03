@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="Wheat">#FFFFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- BRAND -->
+    <color name="brand_red">#d51826</color>
+    <color name="brand_main">#21a5b8</color>
+    <color name="brand_main_1">#1f8b9b</color>
+    <color name="brand_main_2">#15606c</color>
+    <color name="brand_main_3">#0b363c</color>
+    <color name="brand_secondary">#83a1a6</color>
+    <color name="brand_secondary_dark">#7B989C</color>
+    <color name="brand_secondary_1">#516366</color>
+    <color name="brand_secondary_1_opacity_50">#80516366</color>
+    <color name="brand_secondary_1_opacity_90">#E6516366</color>
+
+    <!-- GREY -->
+    <color name="white_opacity_30">#3Cffffff</color>
+    <color name="white_opacity_50">#80ffffff</color>
+    <color name="white_opacity_70">#B4ffffff</color>
+    <color name="grey_light">#f6f6f6</color>
+    <color name="grey_light_1">#eeeeee</color>
+    <color name="grey_light_2">#e6e6e6</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_1">#bbbbbb</color>
+    <color name="grey_2">#999999</color>
+    <color name="grey_dark">#666666</color>
+    <color name="grey_dark_1">#444444</color>
+    <color name="grey_dark_2">#333333</color>
+    <color name="navigation">#222222</color>
+    <color name="grey_dark_2_opacity_25">#40333333</color>
+    <color name="black_opacity_25">#40000000</color>
+    <color name="black_opacity_66">#99000000</color>
+
+    <!-- QUIET -->
+    <color name="quiet">#e1f4f7</color>
+    <color name="quiet_1">#c1e6eb</color>
+    <color name="quiet_2">#fff3f5</color>
+    <color name="quiet_3">#fee0e3</color>
+    <color name="quiet_4">#fffcea</color>
+
+    <!-- OTHER -->
+    <color name="positive_loud">#7ed321</color>
+    <color name="positive_quiet">#8dce83</color>
+    <color name="important">#e8a95c</color>
+    <color name="loud_light">#e45555</color> <!-- red light -->
+    <color name="loud">#cb4a4a</color>
+    <color name="loud_dark">#9f434e</color>
+    <color name="neutral">#d4cbaa</color>
+    <color name="chat_away">#e8a95c</color>
+
+    <!-- LEGACY? -->
+    <color name="red_dark">#AB1F24</color>
+    <color name="red_darkest">#921C20</color>
+    <color name="highlight_on_white">#EAF3F6</color>
+    <color name="highlight_on_blue">#2D8AB4</color>
+    <color name="highlight_on_dark_grey">#333333</color>
+    <color name="highlight_on_light_grey">#DDDDDD</color>
+    <color name="gray_separator">#dadada</color>
+</resources>

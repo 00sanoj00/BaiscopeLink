@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BaiscopeLink</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_clicked">Button was clicked</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Faster Searching</string>
+    <string name="slide_1_desc">The easiest way to search your favorite Movies and Tv Shows!</string>
+
+    <string name="slide_2_title">Simple Reviews</string>
+    <string name="slide_2_desc">Reviews of your favorite Movies and Tv Shows!</string>
+
+    <string name="slide_3_title">Watching Trailer</string>
+    <string name="slide_3_desc">Watching Trailer any Movies and Tv Shows!</string>
+
+    <string name="slide_4_title">Faster Download</string>
+    <string name="slide_4_desc">Faster Download any time any places !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear
+        data
+    </string>
+    <string name="play_again">Play Again</string>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="ok">OK</string>
+    <string name="success">Change Log</string>
+    <string name="exiti">Exit Alert</string>
+    <string name="exit">Are you sure want to exit ?</string>
+
+    <string name="Download">Download</string>
+    <string name="Update">Update Available</string>
+    <string name="dilas">Click Download Button Download New Update or Back Button Skip</string>
+    <string name="downloadupd">DOWNLOAD NEW UPDATE</string>
+    <string name="pressdownload">DOWNLOAD</string>
+
+</resources>

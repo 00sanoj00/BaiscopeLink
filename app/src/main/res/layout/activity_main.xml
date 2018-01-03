@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tb="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.sldeveloper.baiscopelink.MainActivity">
+
+    <WebView
+            android:id="@+id/baiscopelinks"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:background="#ce2727"/>
+
+
+
+
+    <com.github.alexkolpa.fabtoolbar.FabToolbar
+            android:id="@+id/fab_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            tb:tb_button_gravity="end"
+            tb:tb_container_gravity="center"
+            android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+
+        <ImageView
+                android:onClick="developer"
+                android:id="@+id/developer"
+                android:src="@drawable/develop"
+                android:layout_margin="@dimen/_13sdp"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+        />
+
+        <ImageView
+                android:onClick="about"
+                android:id="@+id/about"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:src="@drawable/about"
+                android:layout_margin="@dimen/_13sdp"
+        />
+
+        <ImageView
+                android:onClick="backing"
+                android:id="@+id/backing"
+                android:layout_margin="@dimen/_13sdp"
+                android:src="@drawable/refreshoi"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+        />
+
+        <ImageView
+                android:onClick="help"
+                android:id="@+id/help"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:src="@drawable/help"
+                android:layout_margin="@dimen/_13sdp"
+        />
+
+        <ImageView
+                android:onClick="setting"
+                android:id="@+id/setting"
+                android:layout_width="@dimen/_38sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:src="@drawable/homes"
+                android:layout_margin="@dimen/_13sdp"
+        />
+
+    </com.github.alexkolpa.fabtoolbar.FabToolbar>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp"
+            android:progressDrawable="@drawable/progress_limit"
+            android:id="@+id/progressBar" android:layout_gravity="center_horizontal|top"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ssssssssss"
+            android:textColor="#00000000"
+            android:id="@+id/textViewggg" android:layout_gravity="right|bottom"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ver"
+            android:id="@+id/textver" android:layout_gravity="right|bottom"/>
+
+
+</FrameLayout>
